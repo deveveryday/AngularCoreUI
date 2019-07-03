@@ -1,10 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/dist-server
 /tmp
 /out-tsc
+/dist
 
 # dependencies
 /node_modules
@@ -14,6 +13,7 @@ package-lock.json
 /.idea
 .project
 .classpath
+.history
 .c9/
 *.launch
 .settings/
@@ -32,7 +32,6 @@ package-lock.json
 /coverage
 /libpeerconnection.log
 npm-debug.log
-yarn-error.log
 testem.log
 /typings
 
